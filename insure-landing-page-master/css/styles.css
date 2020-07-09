@@ -118,4 +118,21 @@ h1,h2{
 #footer{
   background-color: hsl(0, 0%, 98%);
   padding: 50px 0;
+  z-index: 0;
+
+}
+.rotated{
+  transform: rotate(90deg);
+}
+.pattern-footer-left{
+  z-index: 2;
+position: relative;
+top: 0;
+}
+#footer .container .row{
+  z-index: 1;
+  margin: 10px auto 20px auto;
+}
+.fas-footer{
+  margin-right: 10px;
 }
