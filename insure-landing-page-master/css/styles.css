@@ -1,4 +1,90 @@
 .navbar-toggler-icon{
   background-color:hsl(256, 26%, 20%);
-color: white;
+
+}
+.navlink-color{
+color: hsl(273, 4%, 51%);
+
+}
+.btn-navbar{
+  outline-color: hsl(256, 26%, 20%) !important;
+}
+
+nav .navbar-nav li .navlink-color{
+  color:  hsl(273, 4%, 51%) !important;
+  margin-top: 12px;
+  }
+
+#top{
+  background-color:  hsl(256, 26%, 20%);
+  margin-bottom: 350px;
+}
+
+.top-text{
+  color: white;
+}
+.title-font{
+  font-family: 'DM Serif Display', serif;
+}
+
+.intro-image{
+position: relative;
+top: 84px;
+}
+.top-row{
+    height: 580px;
+    z-index: 1;
+}
+.btn-top{
+  background-color:  hsl(256, 26%, 20%);
+
+
+}
+.pattern-top-right{
+  position: absolute;
+  right:0;
+  height: 550px;
+  width: 30%;
+
+  z-index: 2;
+}
+.pattern-top-left{
+  position: absolute;
+  bottom: -240px;
+  height: 550px;
+  width: 10%;
+
+  z-index: 2;
+}
+
+.col-text{
+  padding: 5% 5% 7% 7%;
+}
+h1,h2{
+  font-size: 70px;
+  padding-bottom: 25px;
+}
+.subtitle-top{
+  padding-bottom: 25px;
+  line-height: 2rem;
+}
+.subtitle-font{
+  font-family: 'Karla', sans-serif;
+}
+
+#middle{
+  margin-bottom: 50px;
+}
+
+.middle-title{
+  color: hsl(270, 9%, 17%);
+}
+.middle-icons{
+  padding: 25px 0;
+}
+.title-features{
+  padding: 5px 0 15px 0;
+}
+.middle-sub-color{
+  color: hsl(216, 30%, 68%);
 }
