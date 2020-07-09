@@ -122,12 +122,15 @@ h1,h2{
 
 }
 .rotated{
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
 }
 .pattern-footer-left{
+  color: hsl(216, 30%, 68%);
+width: 22%;
   z-index: 2;
-position: relative;
-top: 0;
+position:absolute;
+top: 1990px;
+left: 50px;
 }
 #footer .container .row{
   z-index: 1;
@@ -135,4 +138,11 @@ top: 0;
 }
 .fas-footer{
   margin-right: 10px;
+}
+.hr-footer{
+  color: hsl(216, 30%, 68%);
+  margin-top:5px;
+margin-bottom:5px;
+height:1px;
+width:100%;
 }
