@@ -88,3 +88,34 @@ h1,h2{
 .middle-sub-color{
   color: hsl(216, 30%, 68%);
 }
+
+.cta-backgroundcolor{
+    background-color:  hsl(256, 26%, 20%);
+    padding: 5% 7% 3% 7%;
+    z-index: 1;
+}
+.cta-margin{
+  margin: 150px auto;
+}
+.cta-row{
+  z-index: 1;
+}
+.pattern-cta-right{
+  position: absolute;
+  right:12.5%;
+
+  width:238px;
+
+  z-index: 2;
+}
+#cta{
+  z-index: 0;
+}
+.btn-pos{
+  margin-top: 30%;
+}
+
+#footer{
+  background-color: hsl(0, 0%, 98%);
+  padding: 50px 0;
+}
