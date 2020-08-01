@@ -12,10 +12,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- Estilos -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/navbarstyle.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
     <!-- Iconos Apple y Google -->
     <script src="https://kit.fontawesome.com/fcb1ee29b4.js" crossorigin="anonymous"></script>
+
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -85,7 +89,7 @@
 
     </section>
     <section id="middle">
-        <div class="container">
+        <div class="container-fluid middle-cont">
             <h2 class="title-font middle-title">
                 We’re different</h2>
             <div class="row">
@@ -128,29 +132,27 @@
     </section>
     <section id="footer">
 
-        <div class="container">
+        <div class="container-fluid">
+            <div class="row row-footer-head">
 
-            <div class="row row-footer">
-                <img class="pattern-footer-left rotated" src="images/bg-pattern-intro-right-desktop.svg" alt="">
-
-                <div class="col-md-9">
+                <div class="col-md-7">
                     <img class="footer-logo" src="images/logo.svg" alt="logo">
                 </div>
 
-                <div class="col-md-3">
+                <div class="col-md-5">
                     <div class="row">
                         <i class="fab fa-facebook fa-2x fas-footer"></i>
                         <i class="fab fa-twitter fa-2x fas-footer"></i>
                         <i class="fab fa-instagram fa-2x fas-footer"></i>
                         <i class="fab fa-pinterest fa-2x fas-footer"></i>
                     </div>
-
                 </div>
-                <hr class="hr-footer">
+
             </div>
-            <div class="row row-footer">
+            <hr class="hr-footer">
+            <div class="row">
                 <div class="col-md-3">
-                    <h5 class="subtitle-font middle-sub-color"> Our company
+                    <h5 class="subtitle-font middle-sub-color head-link"> Our company
                     </h5>
                     <h5 class="subtitle-font ">
                         How we work</h5>
@@ -160,30 +162,92 @@
                 </div>
 
                 <div class="col-md-3">
-                    <h5 class="subtitle-font middle-sub-color">Help me</h5>
+                    <h5 class="subtitle-font middle-sub-color head-link">Help me</h5>
                     <h5 class="subtitle-font ">FAQ</h5>
                     <h5 class="subtitle-font "> Terms of use</h5>
                     <h5 class="subtitle-font ">Privacy policy</h5>
                     <h5 class="subtitle-font ">Cookies</h5>
                 </div>
                 <div class="col-md-3">
-                    <h5 class="subtitle-font middle-sub-color">Contact</h5>
+                    <h5 class="subtitle-font middle-sub-color head-link">Contact</h5>
                     <h5 class="subtitle-font "> Sales</h5>
                     <h5 class="subtitle-font ">Support</h5>
                     <h5 class="subtitle-font ">Live chat</h5>
 
                 </div>
                 <div class="col-md-3">
-                    <h5 class="subtitle-font middle-sub-color">Others</h5>
+                    <h5 class="subtitle-font middle-sub-color head-link">Others</h5>
                     <h5 class="subtitle-font ">Careers</h5>
                     <h5 class="subtitle-font ">Press</h5>
                     <h5 class="subtitle-font "> Licenses</h5>
-
                 </div>
             </div>
 
         </div>
+        <img class="pattern-footer-left rotated" src="images/bg-pattern-intro-right-desktop.svg" alt="">
+
+        <!----
+        <div class="container-fluid">
+
+            <div class="row row-footer">
+                <img class="pattern-footer-left rotated" src="images/bg-pattern-intro-right-desktop.svg" alt="">
+                <div class="container">
+                    <div class="row row-footer-head">
+                        <div class="col-md-7">
+                            <img class="footer-logo" src="images/logo.svg" alt="logo">
+                        </div>
+
+                        <div class="col-md-5">
+                            <div class="row">
+                                <i class="fab fa-facebook fa-2x fas-footer"></i>
+                                <i class="fab fa-twitter fa-2x fas-footer"></i>
+                                <i class="fab fa-instagram fa-2x fas-footer"></i>
+                                <i class="fab fa-pinterest fa-2x fas-footer"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="hr-footer">
+
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h5 class="subtitle-font middle-sub-color head-link"> Our company
+                            </h5>
+                            <h5 class="subtitle-font ">
+                                How we work</h5>
+                            <h5 class="subtitle-font "> Why Insure?</h5>
+                            <h5 class="subtitle-font "> View plans</h5>
+                            <h5 class="subtitle-font ">Reviews</h5>
+                        </div>
+
+                        <div class="col-md-3">
+                            <h5 class="subtitle-font middle-sub-color head-link">Help me</h5>
+                            <h5 class="subtitle-font ">FAQ</h5>
+                            <h5 class="subtitle-font "> Terms of use</h5>
+                            <h5 class="subtitle-font ">Privacy policy</h5>
+                            <h5 class="subtitle-font ">Cookies</h5>
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="subtitle-font middle-sub-color head-link">Contact</h5>
+                            <h5 class="subtitle-font "> Sales</h5>
+                            <h5 class="subtitle-font ">Support</h5>
+                            <h5 class="subtitle-font ">Live chat</h5>
+
+                        </div>
+                        <div class="col-md-3">
+                            <h5 class="subtitle-font middle-sub-color head-link">Others</h5>
+                            <h5 class="subtitle-font ">Careers</h5>
+                            <h5 class="subtitle-font ">Press</h5>
+                            <h5 class="subtitle-font "> Licenses</h5>
+                        </div>
+                    </div>
+                </div>
+            </div> ------->
+
     </section>
+
 
     <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="#">Carmen Lucas Fornell</a>.
