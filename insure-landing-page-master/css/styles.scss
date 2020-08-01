@@ -39,6 +39,7 @@
             .col-text {
                 padding: 10% 5% 7% 7%;
                 color: white;
+                z-index: 10;
                 h1 {
                     font-size: 70px;
                     padding-bottom: 25px;
@@ -52,6 +53,7 @@
                     font-family: $font-family-body;
                 }
                 .btn-top {
+                    background-color: transparent;
                     background-color: $dark-violet;
                     &:hover {
                         background-color: white;
@@ -90,7 +92,6 @@
     }
     
     #cta {
-        z-index: 0;
         .pattern-cta-right {
             position: absolute;
             right: 12.5%;
@@ -100,20 +101,23 @@
         .container {
             background-color: hsl(256, 26%, 20%);
             padding: 5% 7% 3% 7%;
-            z-index: 1;
             margin: 150px auto;
             .cta-row {
+                z-index: 10;
                 h2 {
                     color: white;
                     font-family: $font-family-head;
                 }
-                button {
-                    background-color: $dark-violet;
-                    margin-bottom: 20%;
-                    &:hover {
-                        background-color: white;
-                        color: $dark-violet;
-                        border-color: hsl(256, 26%, 20%);
+                .col-md-3 {
+                    z-index: 10;
+                    button {
+                        background-color: transparent;
+                        margin-bottom: 20%;
+                        &:hover {
+                            background-color: white;
+                            color: $dark-violet;
+                            border-color: hsl(256, 26%, 20%);
+                        }
                     }
                 }
             }
@@ -129,7 +133,7 @@
         .pattern-footer-left {
             color: $grayish-blue;
             width: 22%;
-            z-index: 5;
+            z-index: 3;
             margin-top: 0;
             position: relative;
             top: -462px;
@@ -168,8 +172,8 @@
             }
         }
         .row {
-            z-index: 1;
             .col-md-3 {
+                z-index: 10;
                 h5 {
                     font-family: $font-family-body;
                     &:hover {
